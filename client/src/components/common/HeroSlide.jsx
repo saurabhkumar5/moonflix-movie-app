@@ -74,12 +74,9 @@ const HeroSlide = ({ mediaType, mediaCategory }) => {
       <Swiper
         grabCursor={true}
         loop={true}
-        // modules={[Autoplay]}
+       
         style={{ width: "100%", height: "max-content" }}
-      // autoplay={{
-      //   delay: 3000,
-      //   disableOnInteraction: false
-      // }}
+      
       >
         {movies.map((movie, index) => (
           <SwiperSlide key={index}>
